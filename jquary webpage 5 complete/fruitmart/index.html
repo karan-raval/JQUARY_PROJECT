@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo"><img class="logoimg " src="img/logo.png"></div>
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Pages</li>
+                <li>Contact</li>
+                <li>News</li>
+                <li>Shops</li>
+            </ul>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </div>
+    </nav>
+    <div class="headertext">
+        <div class="div1">
+        <p class="brandcolor">FRESH & ORGANIC</p>
+        <h1>Delicious Seasonal Fruits</h1>
+        <br>
+            <button><h5>fruit Collection</h5></h6fruit></button><button><h5>Contact us</h5></button>
+       </div>
+    </div>
+</header>
+<div class="slider-buttons">
+    <button class="slider-button" onclick="changeBackground(0)"></button>
+    <button class="slider-button" onclick="changeBackground(1)"></button>
+    <button class="slider-button" onclick="changeBackground(2)"></button>
+</div>
+<script>
+
+    let currentBackground = 0;
+
+    function changeBackground(index) {
+        const backgrounds = [
+            'url("img/1bg.jpg")',
+            'url("img/2bg.jpg")',
+            'url("img/3bg.jpg")'
+        ];
+
+        
+        document.querySelector('header').style.backgroundImage = backgrounds[index];
+
+        
+        currentBackground = index;
+    }
+</script>
+<section class="servicesection">
+    <div class="parts">
+        <div class="icondiv"><i class="fa-solid fa-truck-fast fa-2xl" style="color: #F28123;"></i></div>
+        <div class="divtext"><h2>free shipping</h2><p>when order over $75</p></div>
+    </div>
+    <div class="parts">
+        <div class="icondiv"><i class="fa-solid fa-phone-volume  fa-2xl" style="color: #F28123;"></i></div>
+        <div class="divtext"><h2>24/7 support</h2><p>get support all day</p></div>
+    </div>
+    <div class="parts">
+        <div class="icondiv"><i class="fas fa-sync fast fa-2xl" style="color: #F28123;"></i></div>
+        <div class="divtext"><h2>Refund</h2><p>get refund within 3 days!</p></div>
+    </div>
+   
+    
+</section>
+<section class="psection">
+    <div class="newstitle">
+        <h1><span class="brandcolor">Our</span> product</h1><br>
+        <hr><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Aliquid, fuga quas itaque eveniet beatae optio.</p>
+    </div> 
+    <div class="box">
+        <div class="imgbox">
+            <img src="img/product-img-1.jpg"></div>
+            <div class="textbox">
+                <h2>Strawberry</h2><p>per kg</p><h2><div class="div2"> <p class="p4"></p><span style="display: inline-block; width: 100% ; text-align: center; color:#0FB45F ;font-weight:bold;"><span>$</span><span class="counter">76</span></span></div></h2>
+            <button><i class="fa-solid fa-cart-shopping"> add to cart</i></button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgbox">
+            <img src="img/product-img-2.jpg"></div>
+            <div class="textbox">
+                <h2>Berry</h2><p>per kg</p><h2><div class="div2"> <p class="p4"></p><span style="display: inline-block; width: 100% ; text-align: center; color:#0FB45F ;font-weight:bold;"><span>$</span><span class="counter">76</span></span></div></h2>
+            <button><i class="fa-solid fa-cart-shopping"> add to cart</i></button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgbox">
+            <img src="img/product-img-3.jpg"></div>
+            <div class="textbox">
+                <h2>Lemon</h2><p>per kg</p><h2><div class="div2"> <p class="p4"></p><span style="display: inline-block; width: 100% ; text-align: center; color:#0FB45F ;font-weight:bold;"><span>$</span><span class="counter">76</span></span></div></h2>
+            <button><i class="fa-solid fa-cart-shopping"> add to cart</i></button>
+        </div>
+    </div>
+</section>
+<section class="dealsec">
+    <div class="dealdiv"><img src="img/a.jpg"></div>
+    <div class="dealdiv1"><h1><span class="brandcolor">  Deal </span> of the month</h1>
+    <br><h2>HIKAN STRWABERRY</h2>
+    <br><p>Quisquam minus maiores repudiandae nobis, minima saepe id, fugit ullam similique!
+         Beatae, minima quisquam molestias facere ea. Perspiciatis unde omnis iste natus 
+         error sit voluptatem accusant</p><br><br>
+         <div class="boxdiv">
+         <div class="box"><h2><span class="brandcolor">00</span></h2><p>days</p></div>
+         <div class="box"><h2><span class="brandcolor">00</span></h2><p>hours</p></div>
+         <div class="box"><h2><span class="brandcolor">00</span></h2><p>mins</p></div>
+         <div class="box"><h2><span class="brandcolor">00</span></h2><p>sec</p></div>
+         </div>
+        <br><br><button><div class="fs"><i class="fa-solid fa-cart-shopping"></i>Add to cart</div>
+        </p></i></button></div>
+</section>
+<section class="commentsec">
+    <div class="comment"><img src="img/avatar1.png">
+        <div class="commenttext"><h3>Saira hakim</h3><br>
+        <p>Local shop owner</p><br>
+    <p>" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto 
+        beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis 
+        iste natus error sit voluptatem accusantium "</p><br><br>
+    <p><i class="fa-solid fa-quote-right fa-2xl" style="color: #929090;"></i></i></p></div>
+</section>
+<section class="aboutsec">
+    <div class="aboutvideo"><img src="img/v-img.jpg"></div>
+    <div class="abouttext"><br><p>Since Year 1999</p>
+    <br><h1>We are <span class="brandcolor"> Fruitkha</span></h1>
+    <br><p>Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor 
+        vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut 
+        dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.</p>
+    <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo 
+        repellat veritatis minus, et labore minima mollitia qui ducimus.</p>
+    <br><br><br><button>know more</button></div>
+</section>
+<section class="discountsec">
+    <div class="discount"><h1>December sale is on!<br>
+        with big <span class="brandcolor">Discount...</span></h1>
+        <div class="sale"><span>Sale! <br> Upto</span>50% <span>off</span></div>
+            <br><br> <button>shop now</button> </div>
+ </section>
+<section class="newssection">
+    <div class="newstitle">
+       <h1><a class="brandcolor">Our</a> News</h1><br>
+       <hr><br>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Aliquid, fuga quas itaque eveniet beatae optio.</p>
+   </div> 
+   <div class="newsbox">
+    <div class="newsdiv"><img class="newsimg" src="img/news-bg-1.jpg"></div>
+    <div class="newsdivtext"><div class="newstext"><h3>You will vainly look for fruit on it in autumn.</h3>
+    <br><br><p><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-calendar"></i> 27 December ,2019</p>
+    <br><br><p>Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+    <br><br><p><h4>READ MORE <i class="fas fa-angle-right"></i></h4></p>
+    </div>
+</div></div>
+<div class="newsbox">
+    <div class="newsdiv"><img class="newsimg" src="img/news-bg-2.jpg"></div>
+    <div class="newsdivtext"><div class="newstext"><h3>A man's worth has its season, like tomato.</h3>
+    <br><br><p><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-calendar"></i> 27 December ,2019</p>
+    <br><br><p>Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+    <br><br><p><h4>READ MORE <i class="fas fa-angle-right"></i></h4></p>
+    </div>
+</div></div>
+<div class="newsbox">
+    <div class="newsdiv"><img class="newsimg" src="img/news-bg-3.jpg"></div>
+    <div class="newsdivtext"><div class="newstext"><h3>Good thoughts bear good fresh juicy fruit.</h3>
+    <br><br><p><i class="fa-solid fa-user"></i> admin <i class="fa-solid fa-calendar"></i> 27 December ,2019</p>
+    <br><br><p>Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
+    <br><br><p><h4>READ MORE <i class="fas fa-angle-right"></i></h4></p>
+    </div>
+</div></div>
+  
+</section>
+
+<section class="regular slider">
+    <div>
+      <img src="img/company-logos/1.png" alt="">
+
+    </div>
+    <div>
+        <img src="img/company-logos/2.png" alt="">
+    </div>
+    <div>
+        <img src="img/company-logos/3.png" alt="">
+    </div>
+    <div>
+        <img src="img/company-logos/4.png" alt="">
+    </div>
+    <div>
+        <img src="img/company-logos/5.png" alt="">
+    </div>
+    <div>
+        <img src="img/company-logos/1.png" alt="">
+    </div>
+  </section>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>      
+<script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        // Your custom JavaScript code here
+        $('#imglogo').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 800,
+        });
+    });
+</script>
+<script>
+    $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 800,
+    });
+</script>
+<footer>
+    <div class="footerbox"><h2>About us</h2>
+        <br><hr><br>
+        <p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+    </div>
+    <div class="footerbox"><h2>Get In Touch</h2>
+        <br><hr><br>
+        <p>34/8, East Hukupara, Gifirtok, Sadan.<br>
+            support@fruitkha.com<br>
+            +00 111 222 3333</p>
+    </div>
+    <div class="footerbox"><h2>pages</h2>
+        <br><hr><br>
+        <p><i class="fas fa-angle-right" style="color: #F28123;"></i> HOME </p><br>
+        <p><i class="fas fa-angle-right" style="color: #F28123;"></i> ABOUT </p><br>
+        <p><i class="fas fa-angle-right" style="color: #F28123;"></i> SHOP </p><br>
+        <p><i class="fas fa-angle-right" style="color: #F28123;"></i> NEWS </p><br>
+        <p><i class="fas fa-angle-right" style="color: #F28123;"></i> CONTACT </p><br>
+    </div>
+    <div class="footerbox"><h2>Subscribe</h2>
+        <br><hr><br>
+        <p>Subscribe to our mailing list to get the latest updates.</p>
+    </div>
+</footer>
+</body>
+<script>
+    jQuery(document).ready(function () {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+    
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="jquery.counterup.min.js"></script>
+</html>
