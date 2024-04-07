@@ -1,0 +1,95 @@
+.section3{
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maindiv3{
+    width: 80%;
+    height: 700px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section3 .maindiv3 h1{
+    height: 60px;
+}
+.section3 .maindiv3 p{
+    width: 46%;
+    height: 70px;
+    text-align: center;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+.swiper-slide .img1 {
+    opacity: 1;
+}
+.swiper-slide .stars {
+    height: 30px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.swiper-slide h3{
+    height: 50px;
+}
+.swiper-slide p{
+    color: blue;
+    font-size: 20px;
+}  
+.swiper-slide p sub{
+    color: black;
+}
+.swiper-slide ul{
+    height:130px;
+    list-style: none;
+}
+.swiper-slide button{
+    background-color: #4586FF;
+    color: white;
+    width: 125px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,155 @@
+@media(max-width:480px){
+    #sp1{
+        display: none;
+    }
+    #si{
+    font-size: 20px;
+    }
+    header{
+        height: auto;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
+        
+    }
+    header .logo{
+        width: 100%;
+        position: relative;
+    }
+    header nav{
+        width: 100%;
+        flex-wrap: wrap;
+        height: 300px;
+        /* color: black; */
+    }
+    nav ul{
+        border: 1px solid ;
+        width: 100%;
+        flex-direction: column;
+        color: black;
+    }
+    #btn23{
+        display: block;
+        position: absolute;
+        right: 25px;
+        font-size: 20px;
+        top: 15%;
+    }
+    .bgtext{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #p1d{
+        width: 100%;
+        color: rgb(38, 0, 255);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #p2d{
+        font-weight: bold;
+        width: 100%;
+        color: red;
+        font-size: 23px;
+    }
+    #btn1,#btn2{
+        width: 90%;
+    }
+    .slider div{
+        width: 100%;
+        height: auto;
+    }
+    .slider div img{
+        width: 80%;
+        height: 90%;
+    }
+    .slider div p{
+        display: none;
+    }
+    .section1{
+        height: 600px;
+    }
+    .section1 .maindiv{
+        height: 500px;
+        flex-direction: column;
+    }
+    .section1 .maindiv .part1{
+        height: 200px;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+
+    .section3{
+        height: auto;
+    }
+    .maindiv3{
+        width: 100%;
+        height: auto;
+    }
+    .section3 .maindiv3 p{
+        height: auto;
+    }
+    .swiper-slide {
+        height: auto;
+        flex-basis: 100%;
+    }
+
+
+
+    .section4{
+        height: auto;
+    }
+    .section4 .sec4mdiv4{
+        width: 80%;
+        height: auto;
+    }
+
+    .child3{
+        width: 100%;
+        height: auto;
+    }
+
+    #child{
+        width: 100%;
+    }
+    #child2{
+        display: none;
+    }
+    #svbdi2 p{
+        font-size: 20px;
+    }
+    .section4 .sec4mdiv4 .subchild .halfdivv{
+        width: 100%;
+    }
+    .section4 .sec4mdiv4 .child .subchild .halfdivv p{
+        font-size: 13px;
+    }
+    .section6{
+        height: auto;
+    }
+    .section6 p{
+        width: 80%;
+    }
+    .section6 .maindivse6{
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+    }
+    .section6 .maindivse6 .div6{
+        width: 100%;
+
+    }
+    .section5 .sec5div1 p{
+        font-size: 20px;
+    }
+    footer{
+        height: auto;
+    }
+    footer .fmdiv{
+        height: auto;
+        flex-direction: column;
+    }
+    footer .fmdiv .subdiv{
+        width: 100%;
+    }
+}
